@@ -1,0 +1,58 @@
+<!-- <ion-header>
+  <app-header></app-header>
+</ion-header> -->
+
+<ion-app>
+  <ion-router-outlet></ion-router-outlet>
+</ion-app>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <!-- <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+      </div> -->
+      <div class="modal-body">
+        <button type="button" class="close btn_fix" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="cls_btn">&times;</span>
+        </button>
+        <div class="row">
+          <div class="col-lg-12">
+            <img src="assets/img/section1/slide55.JPG" alt="" style="" class="mod_img">
+          </div>
+        </div>
+        <div class="custom_msg">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12">
+              <p>
+                <span style="font-size: 18px; font-weight: bold; color: #7f2222;">Dear {{name}},</span>
+                <br><br>
+                We are delighted to announce the joyous occasion of our wedding and warmly invite you to join us as we
+                begin this beautiful journey together.
+                <br><br>
+                Your presence would mean the world to us, and we kindly request you to grace the occasion with your
+                blessings and best wishes.
+                <br><br>
+                We look forward to celebrating this special day with you.
+                <br><br>
+                <span *ngIf="wedding_from == 'wedding'"> <strong>Wedding Date:</strong> Monday, 03 march 2025<br></span>
+                <span *ngIf="wedding_from == 'reception'"> <strong>Reception Date:</strong> Wednessday, 05 march 2025<br></span>
+                <br><br>
+
+                Warm regards,<br>
+                <span><strong>Paulav & Souravi</strong></span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- </div> -->
+        <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div> -->
+      </div>
+    </div>
+  </div>

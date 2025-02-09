@@ -1,0 +1,1340 @@
+/*************** Import Css **************/
+@import "common.css";
+@import "fonts.css";
+
+/*************** start::Start::Hogan First Banner page **************/
+.hogan-banner-section{
+	position:relative;
+	height:100vh;
+}
+.hogan-banner-wrapper{
+	background-color:#DA2439;
+	padding-top:40px;
+}
+.our-content-area{
+	margin-top:200px;
+}
+.our-content-area-wrapper{
+	padding-left:25px;
+}
+.our-content-area h2{
+	margin-bottom:40px;
+}
+.our-content-area p{
+	padding-bottom:90px;
+}
+.aropalne-image{
+	position:relative;
+}
+.aropalne-image img{
+	position:absolute;
+	top:0;
+	left:50%;
+	transform:translatex(-50%);
+	width:60%;
+}
+.our-login-box-area{
+	background-color:#fff;
+	border-radius: 60px;
+	box-shadow: 3px 12px 60px 0px rgba(0, 0, 0, 0.25);
+	color:#000;
+	position:relative;
+}
+.our-login-box-area h4{
+	color: #000;
+	text-align: center;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.our-login-box-area h3{
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	text-align:center;
+	margin-top:10px;
+}
+.login-box-header{
+	margin-bottom:90px;
+}
+.login-with-area{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	height:70px;
+	background-color:#F0F5FF;
+	border-radius:15px;
+}
+.each-login-with{
+	width:100%;
+	height:100%;
+	background-color:#F0F5FF;
+	border-radius:15px;
+}
+.each-login-with a{
+	color: #000;
+	text-align: center;
+	font-family: 'Gilroy';
+	font-size:18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	text-decoration:none;
+	border-radius:15px;
+}
+.each-login-with a:nth-child(1){
+	width:100%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	position:relative;
+}
+.login-box-wrapper {
+	padding:80px 30px;
+}
+.each-input-area input{
+	width:100%;
+	border-radius:15px;
+	border:none;
+	outline:none;
+	background-color:#F0F5FF;
+	color:#000;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	padding:25px 0 25px 30px;
+}
+.each-input-area {
+	margin-top:30px;
+	position:relative;
+}
+.each-input-area .send-otp{
+	color: #000;
+	text-align: right;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	position:absolute;
+	top:50%;
+	transform:translatey(-50%);
+	right:20px;
+	text-decoration:none;
+}
+.login-btn-area{
+	margin-top:100px;
+}
+.our-login-box-area{
+	position:absolute;
+	top:0px;
+	left:0;
+	width:100%;
+}
+.login-box-main p{
+	color: #DA2439;
+	text-align: center;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: capitalize;
+	margin-top:60px;
+}
+.forget-password{
+	color: #000;
+	float: right;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-decoration: underline;
+	text-transform: capitalize;
+	margin-top:40px;
+}
+/*************** End::Hogan First Banner page **************/
+/*************** start::Employeee Profile Details page **************/
+.employeee-profile-details-area{
+	background-color:#F9FBFF;
+	padding-bottom: 40px
+}
+/*************** Start::employeee profile details search area **************/
+.employeee-profile-details-search-area{
+	padding-top:30px;
+}
+.employeee-profile-details-search-area h1{
+	color:#DA2439;
+}
+.employeee-profile-details-search-area p{
+	color:#DA2439;
+}
+.our-employeee-details-search-area{
+	width:100%;
+	height:80px;
+	position:relative;
+}
+.our-employeee-details-search-area input{
+	width:100%;
+	height:100%;
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	border-radius: 80px;
+	background: #F0F5FF;
+	padding-left:80px;
+	border:none;
+	outline:none;
+}
+.search-icon{
+	position:absolute;
+	left:40px;
+	top:50%;
+	transform:translatey(-50%);
+	width:34px;
+}
+.exit-arrow{
+	width:13%;
+}
+/*************** End::employeee profile details search area **************/
+/*************** Start::employeee profile intro **************/
+.employeee-profile-intro-wrapper{
+	border-radius: 40px;
+	background: rgba(218, 36, 57, 0.09);
+	padding:40px 20px;
+}
+.main-heading{
+	position:relative;
+}
+.main-heading h4{
+	color: #FFF;
+	font-family: 'Gilroy';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: capitalize;
+	position:absolute;
+	left:30px;
+	top:50%;
+	transform:translatey(-50%);
+}
+.profile-id{
+	position:relative;
+}
+.employeee-personal-details-heading .profile-id h4{
+	position:absolute;
+	right:5%;
+	top:50%;
+	transform:translatey(-50%);
+	font-weight:700;
+	font-size:18px;
+}
+.main-heading img{
+	width:300px;
+}
+.profile-id img{
+	width:40%;
+}
+.employeee-profile-info h3{
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 20px;
+	padding-bottom:4px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.employeee-profile-details-area p{
+	color: rgba(89, 88, 88, 0.79);
+	font-family: 'Gilroy';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+}
+.employeee-profile-info {
+	max-width:1160px;
+	margin-top:70px;
+}
+.employeee-profile-intro{
+	margin-top:50px;
+}
+.reporting-page-profile{
+	max-width:100% !important;
+	margin-top:20px!important;
+}
+.reporting-page-profile .col-lg-4 div{
+	margin-top:30px;
+}
+/*************** End::employeee profile intro **************/
+/*************** Start::employeee benefits table area **************/
+.employeee-benefits-area {
+	background-color:#fff;
+	border-radius: 30px;
+	margin-top:20px;
+}
+.employeee-profile-picture img{
+	width:86%;
+}
+.employeee-benefits-area-wrapper{
+	padding:20px;
+}
+.employeee-benefits-type ul li{
+	width:210px;
+	height:68px;
+	background: #F0F5FF;
+	border-radius: 20px;
+	margin-right:25px;
+}
+.employeee-benefits-type ul li a{
+	color: rgba(89, 88, 88, 0.79);
+	text-align: center;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-transform:uppercase;
+	border-radius: 20px;
+	text-decoration:none;
+}
+.table-row{
+	display:table;
+	width:100%;
+	margin:0 auto;
+	font-family: 'Gilroy';
+	background:transparent;
+	font-size:18px;
+	color: rgba(89, 88, 88, 0.79);
+}
+.table-cell{
+	display:table-cell;
+	width:25%;
+}
+.table-heading h5{
+	font-size:16px;
+}
+.table-heading .table-cell{
+	padding:25px 0;
+	text-align:center;
+	position:relative;
+	color:#DA2439;
+	position:relative;
+}
+.table-heading .table-cell::after{
+	content:'';
+	width:1px;
+	height:70%;
+	background-color:#DA2439;
+	position:absolute;
+	top:50%;
+	transform:translatey(-50%);
+	right:0;
+}
+.table-heading .table-cell:last-child::after {
+  display:none;
+}
+.left-heading .table-cell::after{
+	height:100%;
+}
+.table-heading{
+	border-radius: 25px;
+	background: #FCF0F1;
+	margin-top: 40px
+}
+.table-left-row h4{
+	color: rgba(89, 88, 88, 0.79);
+	font-family: 'Gilroy';
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.table-left-row h3{
+	color: rgba(89, 88, 88, 0.79);
+	font-family: 'Gilroy';
+	font-size: 19px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.table-left-row .table-cell{
+	position:relative;
+	vertical-align:middle;
+}
+.score-box{
+	width:100%;
+	height:40px;
+	background-color:#DA2439F5;
+	border-radius:30px;
+	position:relative;
+}
+.score{
+	color: #2EBA0B;
+	font-family: 'Gilroy';
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	position:absolute;
+	top:-43px;
+	left:20px;
+}
+.score-level{
+	width:100%;
+	height:100%;
+	background-color:#2EBA0B;
+	border-radius:30px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+.table-right-row{
+	border-radius: 30px;
+	border: 1px solid #DA2439;
+}
+.table-right-row .table-cell{
+	position:relative;
+	padding:20px;
+}
+.table-right-row .table-cell::after{
+	content:'';
+	width:1px;
+	height:70%;
+	background-color:#DA2439;
+	position:absolute;
+	top:20px;
+	right:0;
+}
+.table-right-row .table-cell:last-child::after {
+  display:none;
+}
+.table-left-row{
+	width:100%;
+	border-radius: 30px;
+	background: rgba(240, 245, 255, 0.72);
+	padding-top:70px;
+	padding-bottom:30px;
+}
+.employeee-hds-table .table-right-row .table-cell{
+	width:50%;
+}
+.each-defination-box{
+	height:75px;
+	display: flex;
+    align-items: center;
+	background: rgba(46, 186, 11, 0.08);
+	position:relative;
+	margin-top:10px;
+	border-radius: 0px 22px 22px 0px;
+}
+.each-defination-box div{
+	background-color:#2EBA0B;
+	position:absolute;
+	top:0;
+	left:-12px;
+	height:100%;
+	width:40px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius: 22px 0px 0px 22px;
+}
+.each-defination-box .downside{
+	background-color:#DA2439;
+}
+.each-defination-box h5{
+	transform: rotate(-90deg);
+	color: #FFF;
+	font-family: 'Gilroy';
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+}
+.each-defination-box p{
+	padding:0 40px;
+}
+.downside-bg{
+	background: rgba(218, 36, 57, 0.17);
+}
+.defination-top-content{
+	padding:10px 0;
+}
+.employeee-hds-table .table-right-row .table-cell::after{
+	content:'';
+	width:1px;
+	height:80%;
+	background-color:#DA2439;
+	position:absolute;
+	top:50%;
+	right:0;
+	transform:translatey(-50%);
+}
+.employeee-configural-table{
+	padding:25px 50px 0px;
+}
+.employeee-configural-table .col-lg-4 {
+	padding-left:20px;
+	padding-right:20px;
+}
+.each-configural-box{
+	border-radius: 35px;
+	background: #FFF;
+	box-shadow: 1.568px 1.568px 15.682px 0px rgba(0, 0, 0, 0.25);
+	position:relative;
+	margin-top:120px;
+}
+.each-configural-box p{
+	color: rgba(89, 88, 88, 0.85);
+	font-family: 'Gilroy';
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 500;
+	margin-top:40px;
+}
+.each-configural-box-wrapper{
+	padding:20px 30px 0px 30px;
+	color: #2EBA0B;
+}
+.percentage-circle{
+	position:absolute;
+	top:-90px;
+	left:50%;
+	transform:translatex(-50%);
+	position:relative;
+}
+.percentage-success-color{
+	height:100%;
+	background:transparent;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	border-radius: 50%;
+	border:20px solid red;
+}
+.percentage-circle strong{
+	font-family: 'Gilroy';
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding-left:4px;
+}
+.configural-box-heading h3{
+	font-family: 'Gilroy';
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 10px;
+	text-align:center;
+	padding-bottom:10px;
+	text-transform: uppercase;
+}
+.configural-box-heading{
+	position:relative
+}
+.configural-box-heading .line{
+	border:1px solid;
+	width:80%;
+	margin:0 auto;
+	height:1px;
+}
+.configural-box-content{
+	width:100%;
+	height:350px;
+}
+.color-red{
+	color:rgba(218, 36, 57, 0.96);
+}
+.color-purple{
+	color: #780BBA;
+}
+.color-dark-green{
+	color:#434504;
+}
+.color-blue{
+	color:#0B90BA;
+}
+.color-bluish-green{
+	color:#07A663;
+}
+.color-light-green{
+	color:#2EBA0B;
+}
+.color-deep-blue{
+	color:#780BBA;
+}
+.color-pink{
+	color:#D04C93;
+}
+.each-attribute-mapping{
+	border-radius: 30px;
+	background: rgba(255, 194, 112, 0.52);
+	width:100%;
+	height:50px;
+	position:relative;
+}
+.each-attribute-mapping div{
+	height:100%;
+}
+.each-attribute-mapping .high-btn{
+	position:absolute;
+	right:0;
+	top:50%;
+	transform:translatey(-50%);
+	color:#434504;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	text-transform: capitalize;
+	border:1px solid #000;
+	height:100%;
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:30px;
+}
+.each-attribute-mapping h2{
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.4px;
+	text-transform: capitalize;
+	color:#000;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+}
+.each-attribute-mapping .row{
+	margin-left:0;
+	margin-right:0;
+}
+.each-attribute-mapping span{
+	background-color: rgba(120, 11, 186, 0.16);
+	color: #FFF;
+	font-family: 'Gilroy';
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+	height:100%;
+	width:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:absolute;
+	left:0;
+	top:0;
+	border-radius:50%;
+}
+.attribute-mapping{
+	padding:20px;
+}
+.each-attribute-mapping{
+	margin-bottom:10px;
+}
+.each-attribute-mapping:last-child{
+	margin-bottom:0px;
+}
+.employeee-hds-table .each-table-row{
+	height:100%;
+}
+.employeee-benefits-main-area .row > div {
+	margin-bottom:30px;
+}
+.employeee-hds-table .table-left-row {
+	padding:0;
+}
+/*************** End::employeee benefits table area **************/
+/*************** Start:employeee Reporting/ Position Details **************/
+.employeee-main-content{
+	background-color:#F9FBFF;
+	border-radius:40px;
+}
+.employeee-Reporting-Details{
+	padding:20px 0;
+}
+.employeee-Reporting-Details-wrapper{
+	padding:30px;
+}
+.employeee-Reporting-Details-table h3{
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.employeee-Reporting-Details-table h5{
+	color: rgba(89, 88, 88, 0.62);
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding-top:10px;
+}
+.employeee-Reporting-Details-table .row div{
+	margin-top:30px;
+}
+.employeee-main-content .employeee-profile-intro-wrapper {
+	padding:30px;
+}
+.main-btn-area{
+	margin:25px 0;
+}
+.main-btn-area button{
+	background-color:#000;
+	color:#fff;
+	font-family: 'Gilroy';
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	border-radius:21px;
+	padding:18px 20px;
+	border:none;
+	outline:none;
+}
+.main-btn-area button img {
+    width: 27%;
+    margin-left: 10px;
+}
+.red-btn{
+	background-color:#DA2439 !important;
+}
+/*************** Start:employeee Reporting/ Position Details **************/
+/*************** Start:employeee search Details **************/
+.search-header{
+	padding:25px 0;
+}
+.search-header h3{
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 25px;
+	font-style: normal;
+	font-weight:700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.search-header .cross-icon img{
+	width:60%;
+}
+.search-end-text{
+	padding-top:30px;
+}
+.search-end-text h4{
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-transform: capitalize;
+	padding-bottom:20px;
+}
+/*************** End:employeee search Details **************/
+/*************** End::Employeee Profile Details page **************/
+.recent-searches-box .each-recent-searches-box{
+	width:20%;
+}
+.recent-searches-box-wrapper{
+	padding:30px 0;
+	border-radius: 32px;
+	background: rgba(200, 218, 255, 0.11);
+	margin-right:20px;
+	margin-bottom:20px;
+}
+.each-recent-searches-box:last-child .recent-searches-box-wrapper{
+	margin-right:0px;
+}
+.each-recent-searches-box .imgae-area, .employeee-image .imgae-area{
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	background-color:#D9D9D9;
+	margin-bottom:10px;
+}
+.recent-searches-box-wrapper h3{
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding-top:10px;
+}
+.recent-searches-box-wrapper .red-code{
+	color: rgba(218, 36, 57, 0.30);
+}
+.employeee-image .imgae-area{
+	width:80px;
+	height:80px;
+	margin-bottom:0;
+	margin-right:15px;
+}
+.employeee-name-id .name{
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: capitalize;
+}
+.employeee-name-id .id{
+	color: #DA2439;
+	font-family: 'Gilroy';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.employeee-name-id{
+    justify-content: space-evenly;
+}
+.search-results{
+	margin-top:30px;
+	height:100vh;
+}
+.search-results-wrapper{
+	padding:20px 40px;
+}
+.each-search-employeee{
+	padding-top:30px;
+	padding-bottom:20px;
+	position:relative;
+}
+.each-search-employeee::after{
+	content:'';
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:1px;
+	background-color:#C8DAFF;
+}
+
+.progress {
+	width:175px;
+	height:175px;
+	border-radius: 50%;
+	background: #FFF;
+	box-shadow: 0px 5.489px 15.682px 1.568px rgba(0, 0, 0, 0.25);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+	margin-top: -113px;
+	margin-bottom: 30px;
+}
+.progress-value > span{
+	font-family: 'Gilroy';
+	font-size:50px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.progress-value > span strong{
+	font-size: 24px;
+    font-weight: 700;
+}
+.progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 15px solid #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.progress>span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.progress .progress-left {
+  left: 0;
+}
+
+.progress .progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 15px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.progress .progress-left .progress-bar {
+  left: 100%;
+  border-top-right-radius: 175px;
+  border-bottom-right-radius: 175px;
+  border-left: 0;
+  -webkit-transform-origin: center left;
+  transform-origin: center left;
+}
+
+.progress .progress-right {
+  right: 0;
+}
+
+.progress .progress-right .progress-bar {
+  left: -100%;
+  border-top-left-radius: 175px;
+  border-bottom-left-radius: 175px;
+  border-right: 0;
+  -webkit-transform-origin: center right;
+  transform-origin: center right;
+}
+.progress .progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/************* Start::Team Correlation Dropdown Area *********/
+#dropdown{
+	position:relative;
+	width: 340px;
+}
+#dropdown button {
+	background: #C8DAFF61;
+	width: 250px;
+	height: 60px;
+	text-align:left;
+	border:none;
+	border-radius: 25px;
+	color: #595858;
+	font-family: 'Gilroy';
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: capitalize;
+	padding-left:30px;
+	border:none;
+	outline:none;
+
+}
+#dropdown ul{
+	position:absolute;
+	top:0;
+	right:0;
+	margin:0;
+	background-color:#FCF0F1;
+	border-radius:30px;
+}
+#dropdown ul li {
+	list-style: none;
+	border-radius: 25px;
+}
+
+#dropdown ul li a {
+	display: block;
+	width: 180px;
+	height: 60px;
+	line-height:60px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	text-align: center;
+	color: #DA2439;
+	font-size: 16px;
+	border-radius: 25px;
+}
+
+#dropdown ul li a {
+	text-decoration: none;
+}
+
+.open {
+	display: none;
+}
+/*************End::Team Correlation Dropdown Area *********/
+/************* Start::Team Correlation Progress Area *********/
+.team-correlation-area{
+	margin-top:40px;
+}
+.team-correlation-wrapper{
+	padding:0 80px;
+}
+.team-correlation-wrapper h2{
+	color: #DA2439;
+	font-family: 'Gilroy';
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.correlation-group-heading{
+	position:relative;
+	width:7%;
+	margin:20px 0;
+}
+.correlation-group-heading h4{
+	color: #fff;
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	position:absolute;
+	top:50%;
+	left:10%;
+	transform:translatey(-50%);
+	z-index:2;
+}
+.point-progress-bar-area{
+	background: #F5F5F7;
+	height:170px;
+	display:flex;
+	align-items:center;
+	border-radius:40px;
+	position:relative;
+}
+.point-progress-bar-area::before{
+	content:'';
+	position:absolute;
+	width:5%;
+	height:100%;
+	top:50%;
+	transform:translateY(-50%);
+	left:0;
+	background-color:#DA2439;
+	border-radius:40px 0 0 40px;
+}
+.point-progress-bar-area::after{
+	content:'';
+	position:absolute;
+	width:5%;
+	height:100%;
+	top:50%;
+	transform:translateY(-50%);
+	right:0;
+	background-color:#2EBA0B;
+	border-radius:0px 40px 40px 0;
+}
+.progress-barline{
+	position:relative;
+	background-color:#595858;
+	width:90%;
+	height:1px;
+	margin:0 auto;
+}
+.each-side-progress-bar .progress-bar-amount{
+	width:15px;
+	height:15px;
+	border-radius:50%;
+	display:inline-block;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%)
+}
+.negative-amount .progress-bar-amount{
+	background-color:#DA2439;
+}
+.positive-amount .progress-bar-amount{
+	background-color:#2EBA0B;
+}
+.each-side-progress-bar span{
+	position:absolute;
+	bottom:-37px;
+	left:50%;
+	transform:translatex(-50%);
+	color: #000;
+	font-family: 'Gilroy';
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.progress-barline .each-side-progress-bar{
+	position:relative;
+	width:50%;
+	display:flex;
+}
+.progress-barline .negative-amount::after{
+	content:'-1';
+	width:50px;
+	height:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:#DA2439;
+	position:absolute;
+	top:50%;
+	transform:translatey(-50%);
+	left:-25px;
+	border-radius:50%;
+	border:1px solid #fff;
+	font-family: 'Gilroy';
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.progress-barline .positive-amount::after{
+	content:'-1';
+	width:50px;
+	height:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color:#2EBA0B;
+	position:absolute;
+	top:50%;
+	transform:translatey(-50%);
+	right:-25px;
+	border-radius:50%;
+	border:1px solid #fff;
+	z-index:2;
+	font-family: 'Gilroy';
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.progress-barline .positive-amount{
+	float:right;
+}
+.progress-barline .negative-progress-bar div{
+	background-color:#DA2439;
+}
+.progress-bar-dividation {
+    position: absolute;
+    width: 1px;
+    height: 35px;
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.progress-bar-dividation span{
+	position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translatex(-50%);
+    color: #000;
+    font-family: 'Gilroy';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.amount-point{
+	position:absolute;
+	top:-57px;
+	text-align:center;
+	color: #2EBA0B;
+	font-family: 'Gilroy';
+	font-size: 15px;
+	font-style: normal;
+	font-weight:700;
+	line-height: normal;
+	padding:2px 4px;
+	border:1px solid #2EBA0B;
+	transform:translatex(-50%);
+	border-radius:5px;
+}
+.amount-point img{
+	position:absolute;
+	width:15%;
+	bottom:-33px;
+	left:50%;
+	transform:translatex(-50%);
+}
+/************* End::Team Correlation Progress Area *********/
+/* mobile login page */
+.mobile-login-page .our-hr{
+	color: #DA2439;
+	font-family: 'Gilroy';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	height:100vh;
+}
+.our-hr-inner{
+	position:relative;
+}
+.mobile-login-page .our-hr-inner h1 {
+	position: absolute;
+	top: -50px;
+	left: 40px;
+	color: #DA2439;
+	font-size: 50px;
+}
+.our-company-intro{
+	height:100vh;
+}
+.mobile-login-area .each-mobile-login-area{
+	width:100%;
+	background-color:#F2F2F2;
+	border: 1px solid #000000;
+	border-radius:25px;
+	display:flex;
+	align-items: center;
+	padding:15px 0px 15px 25px;
+	margin-bottom:20px;
+	text-decoration: none;
+}
+.mobile-login-area .each-mobile-login-area h4{
+	font-family: 'Gilroy';
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	color:#000;
+	padding-left:15px;
+}
+.mobile-login-area .each-mobile-login-area img{
+	width:30px;
+}
+.mobile-login-area p{
+	font-family: 'Gilroy';
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	color:#000;
+	text-align:center;
+	padding:30px 0;
+}
+.mobile-login-area p a{
+	color:#DA2439;
+}
+.login-page-wrapper h2{
+	font-family: 'Gilroy';
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	color:#DA2439;
+	margin-bottom:30px;
+}
+.login-page-wrapper h5{
+	font-family: 'Gilroy';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	color:#DA2439;
+	margin-bottom:20px;
+}
+.login-input-area input{
+	background-color:#F2F2F2;
+	border:none;
+	border-radius:15px;
+	padding:12px 30px;
+	width:100%;
+	font-size:20px;
+	font-weight:700;
+	outline:none;
+	margin-top:20px;
+}
+.login-input-area input::placeholder{
+	color:#AFB7C2;
+}
+.login-input-area .verify-btn{
+	background-color:#F2F2F2;
+	border:none;
+	border-radius:15px;
+	padding:12px 30px;
+	width:100%;
+	font-size:20px;
+	font-weight:700;
+	outline:none;
+	color:#AFB7C2;
+	margin-top:20px;
+}
+.login-page-wrapper{
+	padding-top:150px;
+	position:relative;
+}
+.login-page-wrapper .back-arrow{
+	position:absolute;
+	left:0;
+	top:30px;
+}
+.login-page-wrapper .back-arrow img{
+	width:60%;
+}
+.input-otp-box .each-otp-box{
+	width:25%;
+	margin-right:20px;
+	margin-bottom:30px;
+}
+.input-otp-box .each-otp-box:last-child{
+	margin-right:0;
+}
+.input-otp-box .each-otp-box input{ 
+	text-align:center;
+}
+.mobile-login-page .login-input-area .each-otp-box input {
+    padding:0px;
+	width:50px;
+	height:50px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}

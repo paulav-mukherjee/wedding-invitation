@@ -1,0 +1,7 @@
+{
+  "name": "Fathers day",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

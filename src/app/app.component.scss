@@ -1,0 +1,68 @@
+.modal-content {
+    background-color: #ffffff14;
+    border-radius: 50px
+}
+
+.modal-body {
+    background: transparent;
+}
+
+.custom_msg {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    font-size: 0.8rem;
+    color: #8c5c2f;
+    font-weight: 500;
+}
+
+.mod_img {
+    border-radius: 50px
+}
+
+
+.btn_fix {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+.cls_btn{
+    color: #fff;
+}
+@media only screen and (max-width: 768px) {
+    .modal-content {
+        // background-color: rgb(255 250 236);
+        border-radius: 10px;
+        height: 80vh;
+        background: url(../assets/img/section1/md-bg.JPG) no-repeat;
+        background-position: center;
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
+    .modal-body {
+        background: transparent;
+    }
+
+    .mod_img {
+        display: none;
+        border-radius: 10px
+    }
+
+    .custom_msg {
+        position: absolute;
+        font-size: 0.9rem;
+        color: #5f0d4c;
+        font-weight: 500;
+        padding: 20px 20px 0px 20px;
+        top: 220px;
+        left: 0px;
+        background: #ffffeba3;
+    }
+    .cls_btn{
+        color: #000;
+    }
+}
