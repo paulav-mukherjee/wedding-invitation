@@ -162,6 +162,15 @@ body {
 
 /* ======================= section 2 =================== */
 
+.inv_temp {
+    background: url(../img/section1/inv_temp.jpg) !important;
+    background-size: 100% !important;
+    background-origin: top left !important;
+    padding: 40px 0px;
+    background: #fbdc7e;
+    background-repeat: no-repeat !important;
+}
+
 .section-2 {
     background: url("../img/");
     background-size: 10%;
@@ -478,7 +487,7 @@ body {
 
 .section-4 .story-content3 .image-container {
 
-    background: url("../img/section3/lightpaperfibers.png") ;
+    background: url("../img/section3/lightpaperfibers.png");
 
 }
 
@@ -1134,11 +1143,11 @@ body {
 
 
 @media only screen and (max-width: 1024px) {
-    
+
     .navbar-light .navbar-toggler {
-    border-color: rgb(255, 69, 69);
-}
-    
+        border-color: rgb(255, 69, 69);
+    }
+
     .section-1 {
         height: 100vh;
         background: url("../img/section1/md-bg.JPG") no-repeat;
@@ -1146,15 +1155,16 @@ body {
         background-attachment: scroll;
         background-size: cover;
     }
-    
+
     .text-box {
-    width: 70%;
-    position: absolute;
-    top: 45%;
-    left: 44%;
-    transform: translateX(-50%);
-    text-align: center;
-}
+        width: 70%;
+        position: absolute;
+        top: 45%;
+        left: 44%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
     .wrap-content {
         position: absolute;
         top: 70%;
@@ -1177,14 +1187,16 @@ body {
         background-attachment: scroll;
         background-size: cover;
     }
+
     .text-box {
-    width: 70%;
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-}
+        width: 70%;
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
     .text-section p {
         font-size: 16px;
         text-align: center;
@@ -1234,7 +1246,7 @@ body {
         margin-top: 100px;
         margin-left: 20px;
         box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-        background: rgba(251, 254, 223, 0.47);
+        background: rgb(254 223 223 / 72%);
     }
 
     .wrap-content {
@@ -1319,7 +1331,9 @@ body {
     }
 
 
-
+    .inv_temp {
+        background: #af96866e !important;
+    }
 
 
 

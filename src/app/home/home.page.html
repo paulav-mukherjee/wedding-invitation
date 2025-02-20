@@ -1,6 +1,22 @@
 <ion-content padding appAnimateHeader>
   <!-- <app-banner></app-banner> -->
-  <section data-spy="" data-target=".navbar" data-offset="50" id="home">
+  <section
+  class="loader"
+  id="home"
+  *ngIf="is_loading"
+>
+  <!-- Door elements -->
+  <div class="loader-door left"></div>
+  <div class="loader-door right"></div>
+
+  <!-- Center content -->
+  <div class="loader-content">
+    <h1>You're Invited</h1>
+    <p>Join us for a celebration of love and happiness</p>
+  </div>
+</section>
+
+  <section data-spy="" data-target=".navbar" data-offset="50" id="home" *ngIf="!is_loading">
 
     <nav class="navbar navbar-expand-xl navbar-light fixed-top">
       <div class="container d-flex justify-content-between align-items-center">
@@ -63,7 +79,7 @@
             <div class="wrap-content">
               <img src="assets/img/section1/invitationbg.png" alt="Los Angeles">
               <div class="text-box">
-                <p class="small-text">Blessing us</p>
+                <p class="small-text">Bless us</p>
                 <h3 class="">Paulav</h3>
                 <p class="small-text">&</p>
                 <h3 class="">Souravi</h3>
@@ -80,7 +96,7 @@
       <source src="horse.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
-    <section class="section-2" id="cuple" style="position: relative;">
+    <section class="inv_temp" id="cuple2" style="position: relative;">
       <!-- <div>
         <video autoplay muted loop class="background-video adj_vid">
           <source src="assets/img/section1/couple_bg1.mp4" type="video/mp4" class="">
@@ -88,34 +104,36 @@
         </video>
       </div> -->
 
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
+      <div class="container ">
+        <div class="row pt-5 mt-4">
+          <div class="col-xl-12 ">
 
-            <h1>happy couple</h1>
-            <div class="row">
-              <div class="col-xl-6 col-md-6">
+            <div class="custom_msg text-center " style="font-size: 16px;">
+              <div class="row">
+                <div class="col-lg-12 col-sm-12 "
+                  style="padding: 5px 30px; background: #ded7d8db; font-family: cursive;">
+                  <p>
+                  <p style="text-align: start ;font-size: 18px; font-weight: bold; color: #af0000;">Dear {{name}},</p>
+                  <br>
+                  We are delighted to announce the joyous occasion of our wedding and warmly invite you to join us as
+                  we
+                  begin this beautiful journey together.
+                  <br>
+                  Your presence would mean the world to us, and we kindly request you to grace the occasion with your
+                  blessings and best wishes.
+                  <br><br>
+                  We look forward to celebrating this special day with you.
+                  <br><br>
+                  <span *ngIf="wedding_from == 'wedding'"> <strong>Wedding Date:</strong> Monday, 03 march
+                    2025<br></span>
+                  <span *ngIf="wedding_from == 'reception'"> <strong>Reception Date:</strong> Wednessday, 05 march
+                    2025<br></span>
+                  <br><br>
+                  <p style="text-align: end;">
 
-                <div class=" bridegroom">
-                  <img src="assets/img/section2/text-bg2.png" />
-
-                </div>
-                <div class="text-section">
-                  <h3 class="">Paulav mukherjee</h3>
-                  <p>Madanpur, Nadia, 741245</p>
-
-                </div>
-              </div>
-
-              <div class="col-xl-6 col-md-6">
-                <div class="  bride">
-                  <img src="assets/img/section2/text-bg2.png" />
-
-                </div>
-                <div class="text-section">
-                  <h3 class="">Souravi De</h3>
-                  <p>Halisahar, Nabanagar, 743136</p>
+                    Warm regards,<br>
+                    <span><strong>Paulav & Souravi</strong></span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -123,9 +141,45 @@
         </div>
       </div>
     </section>
+    <section class="section-2" id="cuple" style="position: relative;">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+
+            <h1>happy couple</h1>
+            <div class="row">
+
+              <div class="col-xl-6 col-md-6">
+                <div class=" bridegroom">
+                  <img src="assets/img/section2/text-bg2.png" />
+                </div>
+                <div class="text-section">
+                  <h3 class="">Paulav mukherjee</h3>
+                  <p>Madanpur, Nadia, 741245</p>
+                </div>
+              </div>
 
 
-    <section class="section-3">
+
+              <div class="col-xl-6 col-md-6">
+                <div class="  bride">
+                  <img src="assets/img/section2/text-bg2.png" />
+                </div>
+                <div class="text-section">
+                  <h3 class="">Souravi De</h3>
+                  <p>Halisahar, Nabanagar, 743136</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-3" id="coupl3">
       <div class="container">
         <div class="row">
 
@@ -176,37 +230,62 @@
         </div>
         <div class="row">
 
-          <div class="col-xl-6 col-md-8 event text-center">
+          <div class="col-xl-6 col-md-8 event text-center" (click)="gotoMap('hlr')">
             <div class="col-xl-11 p-0 border-area">
               <img src="assets/img/section5/wedding.jpg" />
+              <img src="assets/img/section1/location.png" class="manage_loc_icon" />
               <div class="content">
+                <h5 class="text-center loc_txt">Click here to find location.</h5>
                 <h1><strong>wedding ceremony</strong></h1>
                 <p>This day going to be deliverd prosperity to us which is a radiant tapestry of love, where two souls
                   weave their promises beneath a canopy of hope, surrounded by the tender embrace of family, friends,
                   and timeless traditions.</p>
-                <ul liststyle-type-none>
-                  <li>MODERN HOUSE </li>
-                  <li>Nabanagar, Halisahar Station Road, Kanchrapara, West Bengal 743136 </li>
-                  <li>monday,03 march 2025 </li>
-                  <li>11:56pm</li>
-                </ul>
+                  <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                      <ul liststyle-type-none class="adj_dta">
+                        <li><strong>MODERN HOUSE</strong> </li>
+                        <li>Nabanagar, Halisahar Station Road, Kanchrapara, West Bengal 743136 </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.3007563134906!2d88.42361857476746!3d22.928965719815913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f894440eb7c021%3A0x53f60c0b4e9adb4f!2sMODERN%20HOUSE!5e1!3m2!1sen!2sin!4v1740079641285!5m2!1sen!2sin" style="border:0; width: 100%; height: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-12">
+                      <ul liststyle-type-none style="background-color: #fff; font-weight: bold;">
+                        <li>monday,03 march 2025 (11:56pm) </li>
+                      </ul>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
 
-          <div class="col-xl-6 col-md-8 event text-center">
+          <div class="col-xl-6 col-md-8 event text-center" (click)="gotoMap('mpj')">
             <div class="col-xl-11 p-0 border-area">
               <img src="assets/img/section5/party.png" />
+              <img src="assets/img/section1/location.png" class="manage_loc_icon" />
               <div class="content">
+                <h5 class="text-center loc_txt">Click here to find location.</h5>
                 <h1><strong>Reception ceremony</strong></h1>
                 <p>This day is a graceful gathering where hearts unite, stories unfold, and new beginnings are
                   celebrated amidst an ambiance of warmth, elegance, and shared happiness..</p>
-                <ul liststyle-type-none>
-                  <li>Dadabhai Bhawan</li>
-                  <li>2F4R+QM5, Madanpur, West Bengal 741245</li>
-                  <li>Wednessday, 05 march 2025 </li>
-                  <li>7:00pm - 11:59pm</li>
-                </ul>
+                
+                <div class="row">
+                  <div class="col-lg-6 col-sm-12">
+                    <ul liststyle-type-none class="adj_dta">
+                      <li><strong>DADABHAI BHAWAN</strong></li>
+                      <li>2F4R+QM5, Madanpur, West Bengal 741245</li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.384343516437!2d88.48916227484546!3d23.0068963169139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8c011cfa7b0bb%3A0x225859c5a0c97d02!2sDadabhai%20Bhawan!5e1!3m2!1sen!2sin!4v1740081836589!5m2!1sen!2sin" style="border:0; width: 100%; height: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                  <div class="col-12">
+                    <ul liststyle-type-none style="background-color: #fff; font-weight: bold;">
+                      <li>Wednessday, 05 march 2025 (7:00pm - 11:59pm)</li>
+                    </ul>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
