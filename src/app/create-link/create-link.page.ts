@@ -21,7 +21,7 @@ export class CreateLinkPage implements OnInit {
       if (navigator.share) {
         navigator.share({
           title: 'Invitation Link',
-          text: `You're invited! Check out the invitation here:`,
+          text: `Hi, I'm ${this.type === 'Wedding' ? 'Souravi' : 'Paulav'}, inviting you to our ${this.type} ceremony! Check out your invitation here:`,
           url: link
         }).then(() => {
           console.log('Link shared successfully!');
