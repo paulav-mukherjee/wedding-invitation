@@ -15,7 +15,7 @@ export class HomePage implements OnInit, DoCheck, AfterViewInit {
   employeeDetails: any = {}
   wedding_type = '';
   e_card_link: any = '';
-  contact: any = 'xxxxxxxxxx';
+  contact: any = '7001372698';
   name: any = ''
   wedding_from: any = ''
   is_loading: boolean = true;
@@ -69,12 +69,12 @@ export class HomePage implements OnInit, DoCheck, AfterViewInit {
         block: "start",     // Scroll to the start of the element
       });
     }, 7000);
-    setTimeout(() => {
-      document.getElementById("coupl3").scrollIntoView({
-        behavior: "smooth", // Smooth scrolling animation
-        block: "start",     // Scroll to the start of the element
-      });
-    }, 10000);
+    // setTimeout(() => {
+    //   document.getElementById("coupl3").scrollIntoView({
+    //     behavior: "smooth", // Smooth scrolling animation
+    //     block: "start",     // Scroll to the start of the element
+    //   });
+    // }, 10000);
   }
 
   ngDoCheck(): void {
@@ -151,6 +151,18 @@ export class HomePage implements OnInit, DoCheck, AfterViewInit {
     } else if (type == 'hlr') {
       window.open('https://maps.app.goo.gl/QwJF41BH3FTwtjNK8', '_blank')
     }
+  }
+
+  callNow() {
+    let user_number = this.contact
+    if (user_number) {
+      window.location.href = `tel:${user_number}`;
+    }
+  }
+
+  openMusic() {
+    console.log("🚀 ~ HomePage ~ openMusic ~ openMusic:")
+    $('#staticBackdrop').modal('show')
   }
 }
 

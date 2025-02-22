@@ -1,0 +1,26 @@
+
+<ion-content>
+  <div class="container con_box">
+    <div class="row justify-content-center w-100">
+      <h3 class="text-center container tokol">Create Invitation Link</h3>
+      <div class="col-12 mg_bo">
+        <form class="form_do">
+          <div class="form-group">
+            <label>Name</label>
+            <input type="text" class="form-control" placeholder="Enter full name" [(ngModel)]="name" [ngModelOptions]="{standalone: true}">
+          </div>
+          <div class="form-group">
+            <label>Invitation Type</label>
+            <select name="" id="" class="form-control" [(ngModel)]="type" [ngModelOptions]="{standalone: true}">
+              <option value="" disabled>Choose One</option>
+              <option value="Wedding">Wedding</option>
+              <option value="Reception">Reception</option>
+            </select>
+          </div>
+
+          <button type="button" class="btn btn-primary form-control" style="background: #d55372;" (click)="shareNow()">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</ion-content>

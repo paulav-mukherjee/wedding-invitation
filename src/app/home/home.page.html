@@ -19,18 +19,25 @@
   <section data-spy="" data-target=".navbar" data-offset="50" id="home" *ngIf="!is_loading">
 
     <nav class="navbar navbar-expand-xl navbar-light fixed-top">
-      <div class="container d-flex justify-content-between align-items-center">
+      <div class="container-fluid manage-nav">
         <!-- Brand -->
         <section>
-          <a class="txt_download wow slideInLeft" [href]="e_card_link" target="_blank">Download Our {{wedding_type |
-            titlecase}} E-Card
+          <a class="txt_download wow slideInLeft" [href]="e_card_link" target="_blank">
+            <button class="dwn_btn">
+              Download Our {{wedding_type | titlecase}} E-Card
+            </button>
           </a> &nbsp; &nbsp;
-          <a class="txt_download wow slideInLeft" style="color: #0b9f4f" href="javascript:void(0)"
-            (click)="musicControl()">{{music_status == 'play' ? 'Pause' : 'Play'}} Music</a>
+          <!-- <a class="txt_download wow slideInLeft" style="color: #0b9f4f" href="javascript:void(0)"
+            (click)="musicControl()">{{music_status == 'play' ? 'Pause' : 'Play'}} Music</a> -->
         </section>
         <a class="navbar-brand wow slideInLeft" href="#">Paulav <i class="fas fa-heartbeat hvr-pulse"></i> Souravi<span
             class="nav-logo-image"></span></a>
-        <a class="txt_contact wow slideInLeft" href="javascript:void(0)">Contact: {{contact}}</a>
+        <a class="txt_contact wow slideInLeft" href="javascript:void(0)">
+          <span>
+            Contact: {{contact}}
+          </span> &nbsp;
+          <span style="color: #967100;" (click)="callNow()">Call now</span>
+        </a>
 
         <!-- Toggler/collapsibe Button -->
         <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -72,6 +79,10 @@
 
 
     <!-- for right box use : 'offset-xl-6' class -->
+
+    <button class="mgc_btn" (click)="openMusic()">
+      <img src="assets/img/section1/music.png" alt="">
+    </button>
     <section class="section-1 ">
       <div class="container-fluid offset-xl-6">
         <div class="row">
@@ -91,11 +102,11 @@
       </div>
     </section>
 
-    <audio id="bgMusic" loop autoplay>
+    <!-- <audio id="bgMusic" loop autoplay>
       <source src="assets/img/section1/bg_music.mp3" type="audio/mp3">
       <source src="horse.mp3" type="audio/mpeg">
       Your browser does not support the audio tag.
-    </audio>
+    </audio> -->
     <section class="inv_temp" id="cuple2" style="position: relative;">
       <!-- <div>
         <video autoplay muted loop class="background-video adj_vid">
@@ -228,7 +239,7 @@
           </div>
 
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
 
           <div class="col-xl-6 col-md-8 event text-center" (click)="gotoMap('hlr')">
             <div class="col-xl-11 p-0 border-area">

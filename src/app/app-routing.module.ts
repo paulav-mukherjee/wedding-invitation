@@ -20,12 +20,18 @@ const routes: Routes = [
     canActivate:[AuthGuard]
   },
   {
+    path: 'create-link',
+    loadChildren: () => import('./create-link/create-link.module').then( m => m.CreateLinkPageModule)
+  },
+  {
     path:'**',
     component:PageNotFoundComponent
-  },  {
+  },
+  {
     path: 'banner',
     loadChildren: () => import('./banner/banner.module').then( m => m.BannerPageModule)
-  }
+  },
+
 
   // {
   //   path: 'footer',
